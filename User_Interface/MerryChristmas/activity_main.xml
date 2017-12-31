@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Merry Christmas Card by Calvin Vert Li
+
+  This is the second assignment for lesson 3: Practice Set
+    in Udacity course - Android Basics: User Interface,
+    where is presenting by Google.
+
+  Image Resource: Calvin Vert Li
+-->
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="io.github.vertli.merrychristmas.MainActivity">
+
+    <ImageView
+        android:id="@+id/candle_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/candle" />
+
+    <TextView
+        android:id="@+id/merrychristmas_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="46dp"
+        android:textColor="@android:color/white"
+        android:text="Merry Christmas,"/>
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/merrychristmas_text"
+        android:fontFamily="cursive"
+        android:textSize="46sp"
+        android:textColor="@android:color/white"
+        android:text="Alvin!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textStyle="italic"
+        android:textSize="26dp"
+        android:textColor="@android:color/white"
+        android:text="From, Vert!"/>
+
+</RelativeLayout>
