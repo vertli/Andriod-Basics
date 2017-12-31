@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Birthday Card by Calvin Vert Li
+  This is the first assignment for lesson 3: Practice Set
+    in Udacity course - Android Basics: User Interface,
+    where is presenting by Google.
+  Image Resource: the course provided
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.vertli.happybrithday.MainActivity">
+
+    <ImageView
+        android:id="@+id/android_party_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty" />
+
+    <TextView
+        android:id="@+id/to_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="Happy Birthday Alvin!" />
+
+    <TextView
+        android:id="@+id/from_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="From Vert!" />
+
+</RelativeLayout>
