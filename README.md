@@ -1,10 +1,12 @@
-# Andriod-Basics
-Android apps development with Google from Udacity courses.
+Andriod-Basics
+==============
 
-Course 1: User Interface<br>
-Practice Set - Building Layouts
-1) Birthday Card
-2) Christmas Card
+Android apps development with Google from Udacity courses.  
+  
+Course 1: User Interface
 
-Project
-1) Build a Single Screen App
+*   Practice Set - Building Layouts
+    1.  Birthday Card
+    2.  Christmas Card
+*   Project
+    1.  Build a Single Screen App
